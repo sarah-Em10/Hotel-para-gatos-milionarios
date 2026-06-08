@@ -26,12 +26,15 @@ body {
 .nav{
     display: flex;
     align-items: center;
-    justify-content:
-    space-between;
+    justify-content:space-between;
+    margin-top: 1rem;
+  
 }
 .menu{
     display: flex;
     gap: 2rem;
+    margin-left: 22rem ;
+    font-size: 20px;
 }
 .menu a {
      color: white;
@@ -42,21 +45,21 @@ body {
     color: #9974d4
 }
 .logo {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0 auto;
-    padding: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0.7rem;
+    margin-left: 29rem;
+    
 }
 
 /* HERO SECTION */
 .hero{
-    background: linear-gradient(rgba(44,24,26,0.7), rgba(44,24,26,0.3)), 
-    url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop);
-    height: 500px;
+   
+    height: 300px;
     background-size: cover;
     background-position: center;
-    color: white;
+    color:#6a3992;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,9 +83,10 @@ body {
     cursor: pointer;
     transition: background-color 0.5s;
     transition: scale 0.5s;
+    margin-top: 1rem;
 }
 .btn-primary:hover {
-    background-color: #b8935f;
+    background-color:#6a3992;
     scale: 1.1;
 }
 
@@ -215,8 +219,8 @@ body {
 /* RODAPÉ - FOOTER */
 
 .footer{
-    background-color: #2c1810;
-    color: white;
+    background-color:#61bba7;
+    color:  #6a3992;
     padding: 3rem 0 1rem;
 }
 
@@ -235,11 +239,11 @@ body {
 
 .footer-section h4{
     margin-bottom: 1rem;
-    color: #d4a574;
+    color:  #6a3992;
 }
 
 .footer-bottom{
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #4a3226;
+    border-top: 1px solid  #6a3992;
 }
