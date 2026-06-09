@@ -36,7 +36,10 @@
     <main>
 
         
-        <section class="sobre" id="sobre"></section>
+                <section class="sobre" id="sobre">
+            <div class="container">
+               
+                <div class="sobre-texto">
                     <h2>Amor de gato</h2>
                     <p>No mercado desde 1993, a cada dia melhorando cada vez mais e trazendo mais conforto para nossos clientes de quatro patas.</p>
                     <p>+ de 6.000.000 de estadias satisfeitas a respeito de nosso serviço, e a cada dia essa quantia aumenta.</p>
@@ -48,6 +51,7 @@
                     </ul>
                 </div>
                 
+                <img src="img/familia.png" alt="Bem-Vindos" class="sobre-imagem">
             </div>
         </section>
 
@@ -90,8 +94,8 @@
             <div class="container">
             <h2 class="section-title">Nossas Regalias</h2>
 
-            <div class="cards">
-                <div class="card">
+            <div class="cards2">
+                <div class="card2">
                     <img src="img/banquete.png" alt="Miau-seum">
                     <div class="card-dudu">
                         <h3>Banquete</h3>
@@ -100,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card2">
                     <img src="img/spa.png" alt="Catllac">
                     <div class="card-dudu">
                         <h3>SPA</h3>
@@ -109,12 +113,12 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card2">
                     <img src="img/sala.png" alt="Suíte Miaujestosa">
                     <div class="card-dudu">
                         <h3>Estudio Fotográfico</h3>
                         <p>Um local reservado para nossas patinhas poderem tirar uma foto com os melhores profissionais da área, este espaço esta incluso nos pacotes miaujestosa e Miau-Seum.</p>
-                        <span class="price">R$ 11:00 ás 17:00</span>
+                        <span class="price">11:00 ás 17:00</span>
                     </div>
                 </div>
             </div>
@@ -139,7 +143,15 @@
                 <button class="btn-primary">
                     Faça sua reserva
                 </button>
-
+               <audio  id="btn-primary-audio" src="img/miado.mp3"></audio>
+                <script>
+                    const botao = document.getElementByld('btn-primary');
+                    const audio = document.getElementByld('btn-primary-audio');
+                    botao.addEventListener('mouseenter',()=>{
+                        audio.currentTime=0;
+                        audio.play();
+                    });
+                </script>
                 </div>
             </div>
         </div>
